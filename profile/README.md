@@ -22,7 +22,7 @@ In summary, GitKraft accelerates development and update cycles, enables rapid vu
 
 ## GitKraft for Open Source
 
-A prime example of software distributed as source code is **Helm charts**, commonly used to configure services on the Kubernetes platform. End-users often need to customize Helm templates at the source level, highlighting the need for robust patch management solutions like GitKraft. To benefit the public, GitKraft will distribute popular open-source Helm charts on its platform. This initiative is currently in progress. Stay tuned for updates.
+A prime example of software distributed as source code is **Helm charts**, commonly used to configure services on the Kubernetes platform. End-users often need to customize Helm templates at the source level, highlighting the need for robust patch management solutions like GitKraft. To benefit the public, GitKraft distributes popular open-source Helm charts on its platform.
 
 ## Stay in Touch
 
