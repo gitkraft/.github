@@ -53,4 +53,11 @@ A prime example of software distributed as source code is **Helm charts**, commo
 
 **[✉️ Send me a free message on LinkedIn](https://www.linkedin.com/in/akorzy)**. If you're interested in this project, tell me what you need! I promise – no chatbot!
 
+## Legal
+
+GitKraft was created by Aleksander Korzyński and is maintained by KZS Commerce Ltd,
+a company registered in England and Wales under company number 12242538,
+with its registered office at:
+Office 315B, 182-184 High St. North, London, E6 2JA, United Kingdom.
+
 [^Truffle]: [Anyone can Access Deleted and Private Repository Data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github), Truffle Security, July 24, 2024
