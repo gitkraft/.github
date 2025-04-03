@@ -19,13 +19,15 @@
 
 # 👋 Welcome to GitKraft
 
-GitKraft is a platform for distributing **software as source code** on GitHub, uniquely designed to empower end-users to **easily manage and retain custom, source-level modifications** of software.
+GitKraft is a platform for distributing **software as source code**, combined with a patch management system designed to help end-users easily **manage and preserve their custom, source-level modifications**.
 
-With GitKraft's **GitHub extensions**, users can create **private forks** of software, **customize its source code**, and **update** the software to the latest vendor or community release—all **without losing customizations**.
+The patch management system enables users to **reapply** their changes following **software updates**. GitKraft stores patches as Git commits and uses GitHub as its user interface. Currently, GitKraft offers more than 100 open-source Helm charts, all of which can be easily customized and maintained through patches.
 
 ## Why Choose GitKraft?
 
-Large organizations often need to **adapt the source code** of vendor or community software to meet specific requirements while keeping up with the latest updates. However, GitHub has a notable limitation: a fork of a public repository must also be public, as private forks of public repositories are not supported. GitKraft bridges this gap by enabling the creation of **private forks for public repositories**.
+Traditional configuration files can cause unexpected issues when default values change during software updates – user-defined settings may become incompatible without warning. To address this, GitKraft replaces standard configuration files with patches. These patches explicitly capture both the original default values and the user's customizations, enabling the update system to notify users whenever underlying defaults change. 
+
+Furthermore, large organizations often need to **adapt the source code** of vendor or community software to meet specific requirements while keeping up with the latest updates. However, GitHub has a notable limitation: a fork of a public repository must also be public, as private forks of public repositories are not supported. GitKraft bridges this gap by enabling the creation of **private forks for public repositories**.
 
 While GitHub allows private forks when the source repository is private (with the option to later make the source repo public), this approach introduces a significant security flaw. Users from other organizations can access commits from private repositories within the same fork network, even including commits from deleted private repositories. Truffle Security has highlighted this issue[^Truffle], which poses a severe risk of exposing confidential information. GitKraft's private forks address this problem, ensuring your data remains **secure** and **isolated**.
 
@@ -35,7 +37,7 @@ In addition to secure forks, GitKraft offers a modern and efficient solution for
 - **Merge**: Merging upstream changes into a private branch buries customizations within the branch's history, making it hard to distinguish between official releases and custom modifications.
 - **Rebase**: Rebasing a patch branch over upstream changes disrupts workflows for developers who have already checked out the branch, leading to errors when running `git pull`.
 
-To address these challenges, GitKraft introduces a novel approach to patch management with a new operation called **weld merge**. This operation preserves a transparent history of changes, simplifying audits and fostering effective collaboration.
+To address these challenges, GitKraft introduces a novel approach to patch management with a new operation called _weld merge_. This operation preserves a transparent history of changes, simplifying audits and fostering effective collaboration.
 
 In summary, GitKraft accelerates development and update cycles, enables rapid vulnerability fixes, and maintains clear audit trails. These features empower open-source collaboration, reduce reliance on permanent forks, and streamline contributions back to the community.
 
