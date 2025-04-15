@@ -2,7 +2,7 @@
 
 The `images` branch contains images used across the `gitkraft` organization.
 
-![go-to-repositories-button](https://github.com/user-attachments/assets/99fbf2c5-9816-4006-801c-8dd4b5ab4dde)
+![go-to-repositories-button](https://github.com/user-attachments/assets/b39fd293-77ed-4304-8d3f-718439369932)
 
 ![private-fork-button](https://github.com/user-attachments/assets/2cb76db6-86d4-41f6-975c-65582c79f2f2)
 
